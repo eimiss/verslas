@@ -3,4 +3,10 @@
   <url>
     <loc>https:/web-ts.com/?/</loc>
   </url>
+  <url>
+    <loc>https:/web-ts.com/?/ending_page</loc>
+  </url>
+  <url>
+    <loc>https:/web-ts.com/?/question/:seed/:page</loc>
+  </url>
 </urlset>
