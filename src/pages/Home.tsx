@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { Question } from "../components/question/Question";
 import { QUESTIONS } from "../const";
 
 const PageHome = () => {
   return (
     <PageHomeStyle id="Home">
-      {QUESTIONS[0].question}
+      <Question question={QUESTIONS[0].question} options={QUESTIONS[0].options} onClick={(score:number)=>{console.log("received",score)}}/>
     </PageHomeStyle>
   );
 };
