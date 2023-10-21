@@ -29,7 +29,7 @@ const Question = ({ question, options, onClick }: QuestionProps) => {
             {options.map((option, key) => {
                 return (
                     <div key={key}>
-                        <input type="radio" value={option.score} onChange={handleChange} />
+                        <input type="radio"  name="bitch" value={option.score} onChange={handleChange} />
                         <label>{option.title}</label>
                     </div>
                 )
