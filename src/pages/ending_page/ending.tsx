@@ -12,36 +12,62 @@ const EndingPage = () => {
   };
 
   return (
-    <EndingPageStyle>
-      <h1>Sveikiname!</h1>
-      <p>Jūs pabaigėte klausimyną.</p>
-      <p>Surinktas taškų kiekis: <span className="score">{score}</span></p>
-      <button onClick={redirectToHome}>Grįžti namo</button>
-    </EndingPageStyle>
+    <EndingPageContainer>
+      <EndingPageStyle>
+        <h1>Sveikiname!</h1>
+        <p>Jūs pabaigėte klausimyną.</p>
+        <ScoreText>
+          Surinktas taškų kiekis: <span className="score">{score}</span>
+        </ScoreText>
+        <HomeButton onClick={redirectToHome}>Grįžti namo</HomeButton>
+      </EndingPageStyle>
+    </EndingPageContainer>
   );
 };
 
 export default EndingPage;
 
+const EndingPageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://wallpapercave.com/wp/wp12520106.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+`;
+
 const EndingPageStyle = styled.div`
-  flex-shrink: 0;
-  flex-grow: 1;
   text-align: center;
-  background-color: #fff;
+  background-color: #f5f5f5;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+`;
 
-  h1 {
-    color: #333;
-  }
+const ScoreText = styled.p`
+  color: #333;
+  margin: 20px 0;
+  font-size: 18px;
+`;
 
-  p {
-    color: #666;
-  }
+const HomeButton = styled.button`
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 
-  .score {
-    color: #33cc33;
-    font-size: 24px;
+  &:hover {
+    background-color: #0056b3;
   }
 `;
+
+
+
+
+
