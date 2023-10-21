@@ -16,7 +16,7 @@ export type QuestionProps = {
 
 
 const Question = ({ question, options, onClick }: QuestionProps) => {
-    const [selectedScore, setSelectedScore] = useState<number>(0);
+    const [selectedScore, setSelectedScore] = useState<number>();
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { value } = e.target;
@@ -35,7 +35,7 @@ const Question = ({ question, options, onClick }: QuestionProps) => {
                 )
             })}
             <div>
-                <StyledButton type="button" onClick={() => onClick(selectedScore)}>Pateikti</StyledButton>
+                <StyledButton type="button" onClick={() => selectedScore !==undefined && onClick(selectedScore)}>Pateikti</StyledButton>
             </div>
         </fieldset>
     )
