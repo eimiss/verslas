@@ -9,6 +9,7 @@ import {
 import { Layout } from "../components/layout";
 import { ROUTES } from "../routes";
 import PageHome from "./Home";
+import EndingPage from "./ending_page";
 import Page404 from "./404";
 
 const PAGES: RouteProps[] = [
@@ -16,6 +17,12 @@ const PAGES: RouteProps[] = [
     path: ROUTES.home,
     element: <Layout>
       <PageHome />
+    </Layout>
+  },
+  {
+    path: ROUTES.ending,
+    element: <Layout>
+      <EndingPage />
     </Layout>
   }
 ];

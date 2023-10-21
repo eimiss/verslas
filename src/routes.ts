@@ -1,1 +1,1 @@
-export const ROUTES = { home: "/" };
+export const ROUTES = { home: "/", ending: "/ending_page" };
