@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://web-ts.com/static/css/main.98ec47ca.css",
-    "main.js": "https://web-ts.com/static/js/main.7dad8826.js",
-    "index.html": "https://web-ts.com/index.html",
-    "main.98ec47ca.css.map": "https://web-ts.com/static/css/main.98ec47ca.css.map",
-    "main.7dad8826.js.map": "https://web-ts.com/static/js/main.7dad8826.js.map"
+    "main.css": "https://eimiss.github.io/verslas.github.io/static/css/main.98ec47ca.css",
+    "main.js": "https://eimiss.github.io/verslas.github.io/static/js/main.59de84d4.js",
+    "index.html": "https://eimiss.github.io/verslas.github.io/index.html",
+    "main.98ec47ca.css.map": "https://eimiss.github.io/verslas.github.io/static/css/main.98ec47ca.css.map",
+    "main.59de84d4.js.map": "https://eimiss.github.io/verslas.github.io/static/js/main.59de84d4.js.map"
   },
   "entrypoints": [
     "static/css/main.98ec47ca.css",
-    "static/js/main.7dad8826.js"
+    "static/js/main.59de84d4.js"
   ]
 }
