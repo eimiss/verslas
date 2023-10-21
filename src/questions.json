@@ -1,0 +1,206 @@
+{
+    "questions": [
+        {
+            "question": "Kokie yra mašininio mokymosi tipai?",
+            "options": [
+                {
+                    "title": "Ilgasis ir trumpasis mašininis mokymasis.",
+                    "score": 0
+                },
+                {
+                    "title": "Prižiūrimas, neprižiūrimas ir dalinai prižiūrimas mokymasis.",
+                    "score": 2
+                },
+                {
+                    "title": "Spartusis, greitasis ir paprastasis mokymasis.",
+                    "score": 0
+                },
+                {
+                    "title": "Yra tik vieno tipo mašininis mokymasis – tikrasis mašininis mokymasis.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "question": "Kokios yra pačios svarbiausios dirbtinio intelekto savybės?",
+            "options": [
+                {
+                    "title": "Dirbtinis intelektas yra savarankiškas ir gali būti lengvai pritaikomas.",
+                    "score": 3
+                },
+                {
+                    "title": "Dirbtinis intelektas priima tik teisingus sprendimus medicinoje ir tai gali padėti išgelbėti daug gyvybių.",
+                    "score": 0
+                },
+                {
+                    "title": "Dirbtinis intelektas padeda įmonėms skaitmenizuoti procesus.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "question": "Vadovaujate gamybos įmonei. Raselė dirba pas jus prekių pakuotoja. Raselė neturi jokio supratimo, kas yra dirbtinis intelektas, kaip jis gali padėti įmonėms, tačiau ji yra girdėjusi iš bendradarbio Tomo, jog per dirbtinį intelektą visi žmonės praras darbus ir taps vergais. Vieną dieną Raselė atėjusį į darbą išgirdo, jog Jūs nutarėte ir priėmėte sprendimą automatizuoti pakavimo procesą – pritaikyti tinkamą robotą, kuris lengvai supakuotų prekes. Raselė yra išsigandusi ir nežino kas jos laukia. Jūs neketinate atleisti Raselės. Kaip Jūs, kaip vadovas, nuramintumėte Raselę?",
+            "options": [
+                {
+                    "title": "Paaiškintumėte DI teikiamą naudą.",
+                    "score": 1
+                },
+                {
+                    "title": "Paaiškintumėte DI teikiamą naudą bei nuramintumėte Raselę, jog jos neketinate atleisti iš darbo – priešingai, jai priskirsite geriau apmokamas, jei tinkančias, pareigas.",
+                    "score": 3
+                },
+                {
+                    "title": "Pasakytumėte Raselei paguodžiančius žodžius, jog jos iš darbo neatleisite, tačiau apie DI nepasakotumėte, nes ir taip turite ką veikti – tegul išsiaiškina pati.",
+                    "score": 1
+                },
+                {
+                    "title": "Ignoruotumėte darbuotoją.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "question": "Kokią informaciją gali surinkti ir analizuoti dirbtinis intelektas?",
+            "options": [
+                {
+                    "title": "Tik tekstą ir rašmenis. ",
+                    "score": 2
+                },
+                {
+                    "title": "Tik garsą ir vaizdą.",
+                    "score": 0
+                },
+                {
+                    "title": "Tik skaičius ir statistiką.",
+                    "score": 1
+                },
+                {
+                    "title": "Tekstą, garsą, vaizdą ir kitus duomenis.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "question": "Kokia yra viena iš galimų etinių problemų, susijusių su dirbtiniu intelektu?",
+            "options": [
+                {
+                    "title": "Diskriminacija ir neteisingumas, susiję su mokymo duomenimis ir sprendimais.",
+                    "score": 2
+                },
+                {
+                    "title": "Etika neturi jokios įtakos dirbtinio intelekto kūrimui.",
+                    "score": 0
+                },
+                {
+                    "title": "Etika yra tik žmogiškojo intelekto sritis.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "question": "Kas yra skaitmenizvimas?",
+            "options": [
+                {
+                    "title": "Tai nauja sporto šaka.",
+                    "score": 0
+                },
+                {
+                    "title": "Tai daiktas, pakeičiantis fizinį pasaulį.",
+                    "score": 1
+                },
+                {
+                    "title": "Tai naujas interneto naršyklės žaidimas.",
+                    "score": 0
+                },
+                {
+                    "title": "Tai procesas, kuriuo fiziniai objektai pavirsta skaitmeniniais duomenimis.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "question": "Kaip galite naudoti dirbtinį intelektą (DI) skaitmeniniame versle siekiant pagerinti klientų aptarnavimą?",
+            "options": [
+                {
+                    "title": "Ignoruoti DI naudojimą, nes tai nesuteikia jokios naudos klientų aptarnavimui",
+                    "score": 0
+                },
+                {
+                    "title": "Nustatyti standartinius atsakymus klientų užklausoms",
+                    "score": 1
+                },
+                {
+                    "title": "Integruoti DI į klientų aptarnavimo procesą, kad būtų galima greičiau ir efektyviau spręsti problemas",
+                    "score": 3
+                },
+                {
+                    "title": "Apriboti AI naudojimą tik reklamų tikslais, nepagrindžiant klientų aptarnavimo",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "question": "Kaip dirbtinis intelektas gali būti naudojamas siekiant padidinti efektyvumą ir mažinti išlaidas elektroninės prekybos logistikos valdyme?",
+            "options": [
+                {
+                    "title": "Stebėti pristatymus rankiniu būdu ir neinvestuoti į jokius AI sprendimus",
+                    "score": 0
+                },
+                {
+                    "title": "Naudoti DI, kad būtų numatytas prekių pakrovimas ir pristatymas",
+                    "score": 3
+                },
+                {
+                    "title": "Tikėtis, kad darbuotojai pačių geriausiai žino, kaip efektyviai tvarkyti logistiką",
+                    "score": 0
+                },
+                {
+                    "title": "Padidinti pristatymo kainas ir sumažinti siuntų dažnumą",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "question": "Koks yra pagrindinis dirbtinio intelekto (DI) naudojimo privalumas elektroninės prekybos procesuose?",
+            "options": [
+                {
+                    "title": "Sumažina bendras prekių atsargų išlaidas ir padidina saugumo lygį",
+                    "score": 3
+                },
+                {
+                    "title": "Nereikia specialistų, kurie suprastų, kaip valdyti DI sistemas",
+                    "score": 0
+                },
+                {
+                    "title": "DI neveikia su klientais ir nepasireiškia rinkodaroje",
+                    "score": 0
+                },
+                {
+                    "title": "DI gali suteikti kiekvienam klientui asmeniškai pritaikytus pasiūlymus ir pagerinti patirtį",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "question": "Kokiu būdu galite padidinti savo internetinės prekybos pelną?",
+            "options": [
+                {
+                    "title": "Dauginti reklamos biudžetą ir didinti produktų kainas",
+                    "score": 0
+                },
+                {
+                    "title": "Pradėti socialinės žiniasklaidos reklamą ir nuolat keisti prekių asortimentą",
+                    "score": 0
+                },
+                {
+                    "title": "Optimizuoti svetainės našumą ir gerinti SEO strategiją",
+                    "score": 1
+                },
+                {
+                    "title": "Dauginti reklamos biudžetą ir didinti produktų kainas",
+                    "score": 0
+                }
+            ]
+        }
+    ]
+}
