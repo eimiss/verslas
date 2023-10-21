@@ -1,3 +1,5 @@
+import Q from "./questions.json";
+
 export const CSSMediaSize = {
   phone_small:
     "@media only screen and (max-width: 400px)",
@@ -15,3 +17,5 @@ export const CSSMediaSize = {
   pc_huge:
     "@media only screen and (max-width: 1600px)",
 };
+
+export const QUESTIONS = Q.questions;
