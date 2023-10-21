@@ -48,11 +48,12 @@ export namespace NLayout {
 }
 
 const LayoutStyle = styled.div`
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
 	display: flex;
 	overflow-x: hidden;
 	flex-direction: column;
+	
+	padding: 20px 30px;
 
 	@function hexToRGB($hex) {
 		@return red($hex), green($hex), blue($hex);

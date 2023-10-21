@@ -1,11 +1,17 @@
-import React from 'react';
-import styled from 'styled-components';
-import { useParams, useNavigate } from 'react-router-dom';
-import { ROUTES } from '../../routes';
+import React from "react";
+import styled from "styled-components";
+import { useNavigate, useLocation } from "react-router-dom";
+import { ROUTES } from "../../routes";
+import { QUESTIONS } from "../../const";
 
 const EndingPage = () => {
-  const { score } = useParams<{ score: string }>();
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const params = new URLSearchParams(location.search);
+  const score = params.get("score") || 0;
+
+  const maxScore = QUESTIONS.reduce((max, current) => max + Math.max(...current.options.map(option => option.score)), 0);
 
   const redirectToHome = () => {
     navigate(ROUTES.home); // Replace with the actual URL of your home page
@@ -17,7 +23,7 @@ const EndingPage = () => {
         <h1>Sveikiname!</h1>
         <p>Jūs pabaigėte klausimyną.</p>
         <ScoreText>
-          Surinktas taškų kiekis: <span className="score">{score}</span>
+          Surinktas taškų kiekis: <span className="score">{score}/{maxScore}</span>
         </ScoreText>
         <HomeButton onClick={redirectToHome}>Grįžti namo</HomeButton>
       </EndingPageStyle>
