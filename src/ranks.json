@@ -1,0 +1,28 @@
+{
+    "ranks": [
+        {
+            "title":"Ekspertas",
+            "value":90
+        },
+        {
+            "title":"Profesionalas",
+            "value":80
+        },
+        {
+            "title":"Žinovas",
+            "value":60
+        },
+        {
+            "title":"Patyręs",
+            "value":40
+        },
+        {
+            "title":"Praktikantas",
+            "value":20
+        },
+        {
+            "title":"Naujokas",
+            "value":0
+        }
+    ]
+}

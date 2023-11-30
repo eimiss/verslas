@@ -1,4 +1,5 @@
 import Q from "./questions.json";
+import R from "./ranks.json";
 
 export const CSSMediaSize = {
   phone_small:
@@ -19,3 +20,4 @@ export const CSSMediaSize = {
 };
 
 export const QUESTIONS = Q.questions;
+export const RANKS = R.ranks;
