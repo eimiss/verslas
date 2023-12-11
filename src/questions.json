@@ -123,24 +123,24 @@
             "type": "Vidinė įmonės analizė",
             "options": [
                 {
-                    "title": "Ignoruoti AI naudojimą, nes tai nesuteikia jokios naudos klientų aptarnavimui",
+                    "title": "Ignoruoti DI naudojimą, nes tai nesuteikia jokios naudos klientų aptarnavimui",
                     "score": 0,
-                    "explain": "Šis požiūris būtų laikomas neteisingu šiame scenarijuje, nes ignoruoti AI gali lemti praleistus šansus pagerinti klientų aptarnavimą ir operatyvinį efektyvumą. AI gali būti vertingas įrankis optimizuojant klientų aptarnavimo procesus ir pagerinant bendrą klientų patirtį."
+                    "explain": "Šis požiūris būtų laikomas neteisingu šiame scenarijuje, nes ignoruoti DI gali lemti praleistus šansus pagerinti klientų aptarnavimą ir operatyvinį efektyvumą. DI gali būti vertingas įrankis optimizuojant klientų aptarnavimo procesus ir pagerinant bendrą klientų patirtį."
                 },
                 {
                     "title": "Nustatyti standartinius atsakymus klientų užklausoms",
                     "score": 1,
-                    "explain": "Nors nustatant standartinius atsakymus tai galėtų būti žingsnis teisinga linkme, tai pilnai neišnaudoja AI galimybių. Šis požiūris yra šiek tiek geresnis nei AI ignoravimas, tačiau nepilnai pasinaudoja AI potencialu suteikti personalizuotą ir efektyvų klientų aptarnavimą."
+                    "explain": "Nors nustatant standartinius atsakymus tai galėtų būti žingsnis teisinga linkme, tai pilnai neišnaudoja DI galimybių. Šis požiūris yra šiek tiek geresnis nei DI ignoravimas, tačiau nepilnai pasinaudoja DI potencialu suteikti personalizuotą ir efektyvų klientų aptarnavimą."
                 },
                 {
-                    "title": "Integruoti AI į klientų aptarnavimo procesą, kad būtų galima greičiau ir efektyviau spręsti problemas",
+                    "title": "Integruoti DI į klientų aptarnavimo procesą, kad būtų galima greičiau ir efektyviau spręsti problemas",
                     "score": 3,
-                    "explain":"Šis požiūris yra tinkamiausias šiame scenarijuje. Integruojant AI į klientų aptarnavimo procesą galite naudoti AI valdomus pokalbių robotus arba automatizuotas sistemas, kad galėtumėte tvarkyti rutinines klientų užklausas, leisdami žmogiškajai klientų aptarnavimo komandai sutelkti dėmesį į sudėtingesnius klausimus. Tai ne tik pagerina atsakymo laiką, bet ir mažina klientų aptarnavimo komandos darbo krūvį."
+                    "explain":"Šis požiūris yra tinkamiausias šiame scenarijuje. Integruojant DI į klientų aptarnavimo procesą galite naudoti DI valdomus pokalbių robotus arba automatizuotas sistemas, kad galėtumėte tvarkyti rutinines klientų užklausas, leisdami žmogiškajai klientų aptarnavimo komandai sutelkti dėmesį į sudėtingesnius klausimus. Tai ne tik pagerina atsakymo laiką, bet ir mažina klientų aptarnavimo komandos darbo krūvį."
                 },
                 {
-                    "title": "Apriboti AI naudojimą tik reklamų tikslais, nepagrindžiant klientų aptarnavimo",
+                    "title": "Apriboti DI naudojimą tik reklamų tikslais, nepagrindžiant klientų aptarnavimo",
                     "score": 0,
-                    "explain":"AI naudojimas tik reklamoms ir ne klientų aptarnavimui yra neefektyvus šiame scenarijuje. AI gali būti naudingas reklamų tikslais ir pagerinti rinkodaros pastangas, tačiau ne visiškai išnaudoja AI potencialą pagerinti klientų aptarnavimą."
+                    "explain":"DI naudojimas tik reklamoms ir ne klientų aptarnavimui yra neefektyvus šiame scenarijuje. DI gali būti naudingas reklamų tikslais ir pagerinti rinkodaros pastangas, tačiau ne visiškai išnaudoja DI potencialą pagerinti klientų aptarnavimą."
                 }
             ]
         },
@@ -149,19 +149,19 @@
             "type":"Vidinė ir išorinė įmonės analizė",
             "options": [
                 {
-                    "title": "Stebėti pristatymus rankiniu būdu ir neinvestuoti į jokius AI sprendimus",
+                    "title": "Stebėti pristatymus rankiniu būdu ir neinvestuoti į jokius DI sprendimus",
                     "score": 0,
-                    "explain":"Šis pasirinkimas yra neefektyvus. Rankinis pristatymų stebėjimas gali būti laiko ir resursų švaistymas, ypač jei turite didelį prekių srautą. Be AI pagalbos sunku efektyviai valdyti logistiką ir mažinti išlaidas."
+                    "explain":"Šis pasirinkimas yra neefektyvus. Rankinis pristatymų stebėjimas gali būti laiko ir resursų švaistymas, ypač jei turite didelį prekių srautą. Be DI pagalbos sunku efektyviai valdyti logistiką ir mažinti išlaidas."
                 },
                 {
                     "title": "Naudoti DI, kad būtų numatytas prekių pakrovimas ir pristatymas",
                     "score": 3,
-                    "explain":"Šis pasirinkimas yra teisingas, nes AI gali būti naudojamas prognozuojant prekių pakrovimo ir pristatymo poreikius. AI gali analizuoti ankstesnius duomenis apie užsakymus, prekių kiekius, pristatymo laikus ir kt. Siekiant efektyviau planuoti tiekimą ir pristatymą, tai gali sumažinti laiko ir resursų švaistymą bei padidinti efektyvumą."
+                    "explain":"Šis pasirinkimas yra teisingas, nes DI gali būti naudojamas prognozuojant prekių pakrovimo ir pristatymo poreikius. DI gali analizuoti ankstesnius duomenis apie užsakymus, prekių kiekius, pristatymo laikus ir kt. Siekiant efektyviau planuoti tiekimą ir pristatymą, tai gali sumažinti laiko ir resursų švaistymą bei padidinti efektyvumą."
                 },
                 {
                     "title": "Tikėtis, kad darbuotojai pačių geriausiai žino, kaip efektyviai tvarkyti logistiką",
                     "score": 0,
-                    "explain":"Šis pasirinkimas yra rizikingas. Nepaisant darbuotojų kompetencijos, jie gali nepajusti visų subtilumų ir galimybių, kurių gali suteikti AI. Tai gali trukdyti siekiant maksimalaus efektyvumo ir gali būti mažinti konkurencingumą rinkoje, kurioje naudojama moderni technologija."
+                    "explain":"Šis pasirinkimas yra rizikingas. Nepaisant darbuotojų kompetencijos, jie gali nepajusti visų subtilumų ir galimybių, kurių gali suteikti DI. Tai gali trukdyti siekiant maksimalaus efektyvumo ir gali būti mažinti konkurencingumą rinkoje, kurioje naudojama moderni technologija."
                 },
                 {
                     "title": "Padidinti pristatymo kainas ir sumažinti siuntų dažnumą",
@@ -177,22 +177,22 @@
                 {
                     "title": "Sumažina bendras prekių atsargų išlaidas ir padidina saugumo lygį",
                     "score": 3,
-                    "explain":"Šis atsakymas yra teisingas, nes AI gali būti naudojamas prognozuoti poreikius ir valdyti atsargas efektyviau. Pavyzdžiui, AI gali analizuoti ankstesnius pardavimus ir sezonus, kad padėtų planuoti atsargas tiksliau. Taip sumažinama pernelyg didelės ar per mažos prekių atsargos rizika, ir tuo pačiu pagerinama sauga"
+                    "explain":"Šis atsakymas yra teisingas, nes DI gali būti naudojamas prognozuoti poreikius ir valdyti atsargas efektyviau. Pavyzdžiui, DI gali analizuoti ankstesnius pardavimus ir sezonus, kad padėtų planuoti atsargas tiksliau. Taip sumažinama pernelyg didelės ar per mažos prekių atsargos rizika, ir tuo pačiu pagerinama sauga"
                 },
                 {
                     "title": "Nereikia specialistų, kurie suprastų, kaip valdyti DI sistemas",
                     "score": 0,
-                    "explain":"Šis atsakymas nėra teisingas, nes AI naudojimas reikalauja žinių ir specialistų, kurie gali sukurti, valdyti ir prižiūrėti AI sistemas. AI naudojimas neatsižvelgia į žmogiškųjų specialistų svarbą."
+                    "explain":"Šis atsakymas nėra teisingas, nes DI naudojimas reikalauja žinių ir specialistų, kurie gali sukurti, valdyti ir prižiūrėti DI sistemas. DI naudojimas neatsižvelgia į žmogiškųjų specialistų svarbą."
                 },
                 {
                     "title": "DI neveikia su klientais ir nepasireiškia rinkodaroje",
                     "score": 0,
-                    "explain":"Šis atsakymas yra neteisingas, nes AI gali būti naudojamas klientų aptarnavimo srityje ir rinkodaros kampanijose. AI gali pagelbėti pasiūlyti klientams asmeniškai pritaikytus pasiūlymus ir pagerinti bendrą klientų patirtį."
+                    "explain":"Šis atsakymas yra neteisingas, nes DI gali būti naudojamas klientų aptarnavimo srityje ir rinkodaros kampanijose. DI gali pagelbėti pasiūlyti klientams asmeniškai pritaikytus pasiūlymus ir pagerinti bendrą klientų patirtį."
                 },
                 {
                     "title": "DI gali suteikti kiekvienam klientui asmeniškai pritaikytus pasiūlymus ir pagerinti patirtį",
                     "score": 2,
-                    "explain":"Šis atsakymas yra teisingas, nors jis ne visiškai atitinka klausimo reikalavimus. AI gali suteikti asmeniškai pritaikytus pasiūlymus ir pagerinti klientų patirtį elektroninės prekybos platformoje. Tai padeda klientams rasti produktus, kurie atitinka jų poreikius, ir didina galimybę pereiti prie pirkimo, pagerinant bendrą pardavimų efektyvumą."
+                    "explain":"Šis atsakymas yra teisingas, nors jis ne visiškai atitinka klausimo reikalavimus. DI gali suteikti asmeniškai pritaikytus pasiūlymus ir pagerinti klientų patirtį elektroninės prekybos platformoje. Tai padeda klientams rasti produktus, kurie atitinka jų poreikius, ir didina galimybę pereiti prie pirkimo, pagerinant bendrą pardavimų efektyvumą."
                 }
             ]
         },
@@ -203,22 +203,22 @@
                 {
                     "title": "Dirbtinis intelektas (AI) gali būti naudojamas tik reklamos personalizavimui",
                     "score": 1,
-                    "explain" :"Šis atsakymas yra tik dalinai teisingas, jei svetainė naudoja AI tik reklamai suasmeninti, galite gauti tikslinių skelbimų, tačiau bendra naršymo patirtis ir svetainės našumas žymiai nepagerės. AI gali personalizuoti visą vartotojo patirtį."
+                    "explain" :"Šis atsakymas yra tik dalinai teisingas, jei svetainė naudoja DI tik reklamai suasmeninti, galite gauti tikslinių skelbimų, tačiau bendra naršymo patirtis ir svetainės našumas žymiai nepagerės. DI gali personalizuoti visą vartotojo patirtį."
                 },
                 {
                     "title": "Dirbtinis intelektas (AI) gali analizuoti vartotojų elgesį ir pasiūlyti asmeniškai pritaikytus produktus ir paslaugas ",
                     "score": 3,
-                    "explain":"Šis atsakymas yra teisingas. AI gali analizuoti naudotojų elgesį, kaip ankstesnius pirkinius ar naršymo įpročius, kad pasiūlytų suasmenintus produktus ar paslaugas. Tai pagerina vartotojo patirtį ir padidina tikimybę greitai rasti tai, ko ieškote, o tai pagerina svetainės našumą, kad atitiktų jūsų poreikius."
+                    "explain":"Šis atsakymas yra teisingas. DI gali analizuoti naudotojų elgesį, kaip ankstesnius pirkinius ar naršymo įpročius, kad pasiūlytų suasmenintus produktus ar paslaugas. Tai pagerina vartotojo patirtį ir padidina tikimybę greitai rasti tai, ko ieškote, o tai pagerina svetainės našumą, kad atitiktų jūsų poreikius."
                 },
                 {
                     "title": "Nepaisant dirbtinio intelekto (AI) galimybių, vartotojų patirtis negali būti patobulinta elektroninėje prekyboje ",
                     "score": 0,
-                    "explain":"Šis atsakymas yra neteisingas. AI gali žymiai pagerinti el. prekybos patirtį, pateikdama pritaikytus pasiūlymus, supaprastindama paieškos procesus ir pagerindamas bendrą vartotojų sąveiką."
+                    "explain":"Šis atsakymas yra neteisingas. DI gali žymiai pagerinti el. prekybos patirtį, pateikdama pritaikytus pasiūlymus, supaprastindama paieškos procesus ir pagerindamas bendrą vartotojų sąveiką."
                 },
                 {
-                    "title": "AI gali padėti kurti standartinius puslapius",
+                    "title": "DI gali padėti kurti standartinius puslapius",
                     "score": 2,
-                    "explain":"Šis atsakymas yra teisingas, nors jis ne visiškai atitinka klausimo reikalavimus. Nors dirbtinis intelektas iš tiesų gali generuoti standartinius tinklalapius, jo pagrindinis vaidmuo neapsiriboja tuo. AI gebėjimas slypi suprasti naudotojų elgseną ir pageidavimus pritaikyti patirtį, taip didinant vartotojų pasitenkinimą ir svetainės našumą."
+                    "explain":"Šis atsakymas yra teisingas, nors jis ne visiškai atitinka klausimo reikalavimus. Nors dirbtinis intelektas iš tiesų gali generuoti standartinius tinklalapius, jo pagrindinis vaidmuo neapsiriboja tuo. DI gebėjimas slypi suprasti naudotojų elgseną ir pageidavimus pritaikyti patirtį, taip didinant vartotojų pasitenkinimą ir svetainės našumą."
                 }
             ]
         },
@@ -229,22 +229,22 @@
                 {
                     "title": "Dirbtinis intelektas (AI) naudojamas tik duomenų analizei, tačiau neįtakoja finansinių sprendimų",
                     "score": 1,
-                    "explain" :"Šis atsakymas yra tik dalinai teisingas. Įmonė naudoja AI tik duomenų rinkimui bei tvarkymui ir nors pats AI tiesiogiai nepriima finansinių sprendimų, jo atlikta analizė gali turėti tam įtakos."
+                    "explain" :"Šis atsakymas yra tik dalinai teisingas. Įmonė naudoja DI tik duomenų rinkimui bei tvarkymui ir nors pats DI tiesiogiai nepriima finansinių sprendimų, jo atlikta analizė gali turėti tam įtakos."
                 },
                 {
-                    "title": "AI naudojamas spėjimams ir prognozavimui, padedant finansinių rinkų analizėje",
+                    "title": "DI naudojamas spėjimams ir prognozavimui, padedant finansinių rinkų analizėje",
                     "score": 3,
-                    "explain":"Šis atsakymas yra teisingas. AI plačiai naudojamas spėjimams, prognozavimui arba analizėms, kurios būtent ir leidžia prognozuoti finansinių rinkų judėjimą. Tai gali lemti sėkmingesnius finansinius sprendimus."
+                    "explain":"Šis atsakymas yra teisingas. DI plačiai naudojamas spėjimams, prognozavimui arba analizėms, kurios būtent ir leidžia prognozuoti finansinių rinkų judėjimą. Tai gali lemti sėkmingesnius finansinius sprendimus."
                 },
                 {
-                    "title": "Įmonių finansuose AI naudojamas tik kaip eksperimentas ir neturi jokios praktinės reikšmės",
+                    "title": "Įmonių finansuose DI naudojamas tik kaip eksperimentas ir neturi jokios praktinės reikšmės",
                     "score": 0,
-                    "explain":"Šis atsakymas yra neteisingas. Ši situacija neatspindi realaus AI potencialo sprendimų priėmimo procesuose, strateginėje plėtroje ar pelningume."
+                    "explain":"Šis atsakymas yra neteisingas. Ši situacija neatspindi realaus DI potencialo sprendimų priėmimo procesuose, strateginėje plėtroje ar pelningume."
                 },
                 {
                     "title": "Dirbtinis intelektas yra naudojamas visapusiškai, leidžiantis geriau suprasti ir prognozuoti finansinius srautus",
                     "score": 2,
-                    "explain":"Šis atsakymas yra teisingas, nors jis ne visiškai atitinka klausimo reikalavimus. Nors ir pabrėžiama AI  visapusiškesnė reikšmė finansuose, leidžianti geriau suprasti ir prognozuoti finansinius srautus, tačiau šiame atsakyme nėra pabrėžta tiesioginė įtaka finansinių sprendimų priėmimui arba tiesioginiam pelningumui."
+                    "explain":"Šis atsakymas yra teisingas, nors jis ne visiškai atitinka klausimo reikalavimus. Nors ir pabrėžiama DI  visapusiškesnė reikšmė finansuose, leidžianti geriau suprasti ir prognozuoti finansinius srautus, tačiau šiame atsakyme nėra pabrėžta tiesioginė įtaka finansinių sprendimų priėmimui arba tiesioginiam pelningumui."
                 }
             ]
         },
@@ -255,20 +255,20 @@
                 {
                     "title": "Dirbtinio intelekto sistema naudojama tik rizikos identifikavimui, neįtakojant jos valdymo",
                     "score": 1,
-                    "explain" :"Šis atsakymas yra tik dalinai teisingas. AI gali ne tik identifikuoti, bet ir aktyviai valdyti riziką, įskaitant automatizuotą sprendimų priėmimą pagal nustatytus algoritmus."
+                    "explain" :"Šis atsakymas yra tik dalinai teisingas. DI gali ne tik identifikuoti, bet ir aktyviai valdyti riziką, įskaitant automatizuotą sprendimų priėmimą pagal nustatytus algoritmus."
                 },
                 {
-                    "title": "AI analizuoja finansinius duomenis ir identifikuoja rizikos veiksnius, o po to siūlo strategijas rizikos valdymui",
+                    "title": "DI analizuoja finansinius duomenis ir identifikuoja rizikos veiksnius, o po to siūlo strategijas rizikos valdymui",
                     "score": 3,
-                    "explain":"Šis atsakymas yra teisingas. AI gali analizuoti didžiules duomenų apimtis ir greitai identifikuoti rizikos veiksnius bei siūlyti veiksmingas strategijas jų valdymui."
+                    "explain":"Šis atsakymas yra teisingas. DI gali analizuoti didžiules duomenų apimtis ir greitai identifikuoti rizikos veiksnius bei siūlyti veiksmingas strategijas jų valdymui."
                 },
                 {
                     "title": "Dirbtinio intelekto sistema yra naudojama tik kaip papildomas įrankis, neturintis esminės įtakos rizikos valdymui",
                     "score": 0,
-                    "explain":"Šis atsakymas yra neteisingas. Daugelis AI sistemų yra esminės reikšmės rizikos valdymo procese, suteikdamos galimybę efektyviau valdyti rizikos veiksnius."
+                    "explain":"Šis atsakymas yra neteisingas. Daugelis DI sistemų yra esminės reikšmės rizikos valdymo procese, suteikdamos galimybę efektyviau valdyti rizikos veiksnius."
                 },
                 {
-                    "title": "AI yra integruotas visame rizikos valdymo procese, tačiau nesiūlo strategijų rizikos valdymui",
+                    "title": "DI yra integruotas visame rizikos valdymo procese, tačiau nesiūlo strategijų rizikos valdymui",
                     "score": 2,
                     "explain":"Šis atsakymas dalinai  teisingas. Integravus dirbtinį intelektą visame rizikos valdymo procese, galima efektyviau kontroliuoti ir valdyti riziką, tačiau dirbtinio intelekto įrankis gali pasiūlyti ir strategijas rizikos valdymui."
                 }
@@ -279,24 +279,24 @@
             "type":"Produktų gamyba",
             "options": [
                 {
-                    "title": "AI naudojamas tik duomenų rinkimui ir tvarkymui, bet neturi jokios įtakos gamybos sprendimams",
+                    "title": "DI naudojamas tik duomenų rinkimui ir tvarkymui, bet neturi jokios įtakos gamybos sprendimams",
                     "score": 1,
                     "explain" :"Šis atsakymas yra tik dalinai teisingas, nes nepaisant to, kad duomenys buvo rinkti, jie nebuvo tiesiogiai naudojami tobulinant ar keičiant gamybos sprendimus. Tai leidžia lengviau gauti informaciją, bet ji nepateikiama kaip pagrindas sprendimams"
                 },
                 {
                     "title": "Dirbtinis intelektas pritaikytas gamybos optimizavimui ir procesų srautams pagerinti",
                     "score": 3,
-                    "explain":"Šis atsakymas yra teisingas, nes nurodoma, jog AI yra pritaikytas optimizuoti gamybos procesus ir srautus. Tai rodo, kad dirbtinis intelektas tiesiogiai įsitraukia į gamybos veiklą, galintį pagerinti procesų efektyvumą."
+                    "explain":"Šis atsakymas yra teisingas, nes nurodoma, jog DI yra pritaikytas optimizuoti gamybos procesus ir srautus. Tai rodo, kad dirbtinis intelektas tiesiogiai įsitraukia į gamybos veiklą, galintį pagerinti procesų efektyvumą."
                 },
                 {
-                    "title": "Įmonė eksperimentuoja su AI, bet jo nauda gamyboje nėra įvertinta",
+                    "title": "Įmonė eksperimentuoja su DI, bet jo nauda gamyboje nėra įvertinta",
                     "score": 0,
-                    "explain":"Šis atsakymas yra neteisingas, nes teigiama, kad įmonė eksperimentuoja su AI, bet jo nauda gamyboje neįvertinta, todėl tai neatneša jokios vertės gamybos procesams."
+                    "explain":"Šis atsakymas yra neteisingas, nes teigiama, kad įmonė eksperimentuoja su DI, bet jo nauda gamyboje neįvertinta, todėl tai neatneša jokios vertės gamybos procesams."
                 },
                 {
-                    "title": "AI yra įdiegtas visuose gamybos etapuose, tačiau jo įtaka nėra gerai suprantama",
+                    "title": "DI yra įdiegtas visuose gamybos etapuose, tačiau jo įtaka nėra gerai suprantama",
                     "score": 2,
-                    "explain":"Šis atsakymas yra teisingas, nors jis ne visiškai atitinka klausimo reikalavimus. Nors ir AI yra įdiegtas gamyboje, nėra aiški informacija apie jo tiesioginę įtaką arba įmonės supratimą apie jo naudą gamybos procesuose."
+                    "explain":"Šis atsakymas yra teisingas, nors jis ne visiškai atitinka klausimo reikalavimus. Nors ir DI yra įdiegtas gamyboje, nėra aiški informacija apie jo tiesioginę įtaką arba įmonės supratimą apie jo naudą gamybos procesuose."
                 }
             ]
         },
@@ -305,9 +305,9 @@
             "type": "Produktų gamyba",
             "options":[
                 {
-                    "title": "AI yra pritaikytas tik tiekimo duomenų analizei, neturintį tiesioginės įtakos tiekimo grandinėms.",
+                    "title": "DI yra pritaikytas tik tiekimo duomenų analizei, neturintį tiesioginės įtakos tiekimo grandinėms.",
                     "score": 1,
-                    "explain": "Šis atsakymas yra tik dalinai teisingas, nes AI gali ne tik analizuoti duomenis, bet ir tiesiogiai optimizuoti tiekimo grandines ir optimizuoti tiekimo procesus."
+                    "explain": "Šis atsakymas yra tik dalinai teisingas, nes DI gali ne tik analizuoti duomenis, bet ir tiesiogiai optimizuoti tiekimo grandines ir optimizuoti tiekimo procesus."
                 },
                 {
                     "title": "Dirbtinio intelekto algoritmai yra naudojami optimizuoti tiekimo grandinių procesus ir prognozuoti tiekimo poreikius.",
@@ -317,7 +317,7 @@
                 {
                     "title": "Dirbtinio intelekto įdiegimas neturės jokios įtakos.",
                     "score": 0,
-                    "explain": "Šis atsakymas yra neteisingas AI gali ne tik analizuoti duomenis, bet ir tiesiogiai optimizuoti tiekimo grandines ir optimizuoti tiekimo procesus."
+                    "explain": "Šis atsakymas yra neteisingas DI gali ne tik analizuoti duomenis, bet ir tiesiogiai optimizuoti tiekimo grandines ir optimizuoti tiekimo procesus."
                 }
             ]
         },
@@ -328,17 +328,17 @@
                 {
                     "title": "Personalizuota reklama.",
                     "score": 3,
-                    "explain": "Šis atsakymas yra teisingas, AI identifikuoja individualius klientų poreikius ir pageidavimus, leisdama sukurti tikslines ir personalizuotas reklamas. Pavyzdžiui, jeigu klientas dažnai ieško sportinių batų, jis gali pamatyti reklamas su nuolaidomis būtent šiems produktams."
+                    "explain": "Šis atsakymas yra teisingas, DI identifikuoja individualius klientų poreikius ir pageidavimus, leisdama sukurti tikslines ir personalizuotas reklamas. Pavyzdžiui, jeigu klientas dažnai ieško sportinių batų, jis gali pamatyti reklamas su nuolaidomis būtent šiems produktams."
                 },
                 {
                     "title": "Proaktyvus klientų aptarnavimas.",
                     "score": 3,
-                    "explain": "Šis atsakymas yra teisingas, AI gali prognozuoti kliento ketinimus, pavyzdžiui, kada jis svarsto apie naujo produkto pirkimą. Tai leidžia įmonės klientų aptarnavimo skyriui siūlyti pritaikytus pasiūlymus taip, pagerinant bendrą kliento patirtį."
+                    "explain": "Šis atsakymas yra teisingas, DI gali prognozuoti kliento ketinimus, pavyzdžiui, kada jis svarsto apie naujo produkto pirkimą. Tai leidžia įmonės klientų aptarnavimo skyriui siūlyti pritaikytus pasiūlymus taip, pagerinant bendrą kliento patirtį."
                 },
                 {
                     "title": "Akcijų optimizavimas.",
                     "score": 3,
-                    "explain": "Šis atsakymas yra teisingas, AI nuolat analizuoja duomenis ir prognozuoja, kurie produktai gali būti paklausūs ateityje. Tai padeda įmonės marketingo specialistams efektyviau planuoti akcijas, paskirstyti reklaminius biudžetus ir užtikrinti, kad produktai būtų pateikiami tinkamu laiku ir vietoje."
+                    "explain": "Šis atsakymas yra teisingas, DI nuolat analizuoja duomenis ir prognozuoja, kurie produktai gali būti paklausūs ateityje. Tai padeda įmonės marketingo specialistams efektyviau planuoti akcijas, paskirstyti reklaminius biudžetus ir užtikrinti, kad produktai būtų pateikiami tinkamu laiku ir vietoje."
                 }
             ]
         },
@@ -347,17 +347,17 @@
             "type": "Marketingas",
             "options":[
                 {
-                    "title": "AI gali automatiškai sukurti reklaminius turinius, lemdamas efektyvesnį vartotojų įsitraukimą.",
+                    "title": "DI gali automatiškai sukurti reklaminius turinius, lemdamas efektyvesnį vartotojų įsitraukimą.",
                     "score": 3,
                     "explain": "Šis atsakymas yra teisingas. Dirbtinis intelektas gali analizuoti duomenis ir sukurti kūrybinius turinius, kurie geriau atitinka vartotojų poreikius."
                 },
                 {
-                    "title": "AI negali automatiškai sukurti reklaminio turinio.",
+                    "title": "DI negali automatiškai sukurti reklaminio turinio.",
                     "score": 0,
                     "explain": "Šis atsakymas yra neteisingas. Dirbtinis intelektas gali analizuoti duomenis ir sukurti kūrybinius turinius, kurie geriau atitinka vartotojų poreikius."
                 },
                 {
-                    "title": "AI gali aktyviai stebėti konkurentus ir automatiškai prisitaikyti prie rinkos pokyčių.",
+                    "title": "DI gali aktyviai stebėti konkurentus ir automatiškai prisitaikyti prie rinkos pokyčių.",
                     "score": 3,
                     "explain": "Šis atsakymas yra teisingas. Dirbtinis intelektas gali nuolat sekti konkurentus ir naudodamas mašininį mokymąsi, greitai prisitaikyti prie rinkos pokyčių."
                 },
