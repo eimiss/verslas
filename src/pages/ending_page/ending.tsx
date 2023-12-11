@@ -32,7 +32,7 @@ const EndingPage = () => {
           Jūsų lygis - <b><span className="score">{rank?.title}</span></b>
         </ScoreText>
         <ScoreText>
-          Surinktas taškai: <span className="score">{score}/{maxScore}</span>
+          Surinkti taškai: <span className="score">{score}/{maxScore}</span>
         </ScoreText>
         <HomeButton onClick={redirectToHome}>Grįžti namo</HomeButton>
       </EndingPageStyle>

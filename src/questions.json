@@ -391,7 +391,7 @@
         },
         {
             "question": "Verslo konsultacinė įmonė, specializuojanti į įvairių technologijų kūrimą, susiduria su dideliu iššūkiu efektyviai valdyti žmogiškuosius išteklius. Norėdama pagerinti žmogiškųjų išteklių valdymą, įmonė nusprendė įdiegti dirbtinio intelekto sistemą. Koks gali būti pagrindinis pranašumas, kurį gali suteikti dirbtinis intelektras įmonės žmogiškųjų išteklių valdymo strategijoje?",
-            "type": "Žmogiskuju išteklių valdymas",
+            "type": "Žmogiškųjų išteklių valdymas",
             "options": [
                 {
                     "title": "Dirbtinio intelekto sistema neturės jokio poveikio žmogiškųjų išteklių valdymui, nes šiame procese svarbiausias yra žmogaus nuovokumas ir subjektyvūs sprendimai. Technologijos gali tik sunkiai suvokti ir vertinti individualias žmogaus savybes bei įtraukti asmeninį požiūrį į darbuotojų valdymą.",
@@ -412,7 +412,7 @@
         },
         {
             "question": "Jūs dirbate marketingo skyriuje tarptautinėje įmonėje, kuri įdiegė naujas dirbtinio intelekto sistemas siekdama efektyviau valdyti rinkodaros strategijas ir kampanijas. Kaip dirbtinis intelektas gali paveikti žmogiškuosius išteklius ir jų valdymą šioje tarptautinės įmonės marketingo veikloje?",
-            "type": "Žmogiskuju išteklių valdymas",
+            "type": "Žmogiškųjų išteklių valdymas",
             "options": [
                 {
                     "title": "Dirbtinio intelekto sistema gali efektyviai analizuoti didelius duomenų kiekius, identifikuoti rinkos tendencijas ir kryptis, padėdama marketingo specialistams geriau suprasti vartotojų elgesį. Tai leidžia žmogiškiems ištekliams sutelkti dėmesį ten, kur jis reikalingas, ir kurti geografijos ar demografinius orientuotus turinio ir reklamos segmentus.",
