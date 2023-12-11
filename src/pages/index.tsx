@@ -11,6 +11,7 @@ import { ROUTES } from "../routes";
 import PageHome from "./Home";
 import EndingPage from "./ending_page";
 import PageQuestion from "./question/[seed]/[page]";
+import PageRules from "./rules";
 import Page404 from "./404";
 
 const PAGES: RouteProps[] = [
@@ -30,6 +31,12 @@ const PAGES: RouteProps[] = [
     path: ROUTES.question,
     element: <Layout>
       <PageQuestion />
+    </Layout>
+  },
+  {
+    path: ROUTES.rules,
+    element: <Layout>
+      <PageRules />
     </Layout>
   }
 ];
