@@ -52,7 +52,7 @@ const LayoutStyle = styled.div`
 	display: flex;
 	overflow-x: hidden;
 	flex-direction: column;
-	
+
 	@function hexToRGB($hex) {
 		@return red($hex), green($hex), blue($hex);
 	}

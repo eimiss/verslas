@@ -1,9 +1,14 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
+	@font-face {
+		font-family: 'Onest';
+		src: url('${process.env.PUBLIC_URL}/fonts/Onest/Onest-VariableFont_wght.ttf') format('truetype');
+	}
+
 	body {
 		margin: 0;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		font-family: -apple-system, BlinkMacSystemFont, Onest, 'Segoe UI', 'Roboto', 'Oxygen',
 			'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
 			sans-serif;
 		-webkit-font-smoothing: antialiased;
@@ -14,6 +19,7 @@ export default createGlobalStyle`
 
 	#root {
 		max-width: 100vw;
+		height: 100%;
 	}
 
 	code {
@@ -22,7 +28,9 @@ export default createGlobalStyle`
 	}
 
 	:root {
-		//
+		--c-primary: #EE3C42;
+		--c-secondary: #17C3B2;
+		--c-tertiary: #FFCB77;
 	}
 
 	ul {
@@ -42,15 +50,23 @@ export default createGlobalStyle`
 		transition: all .1s;
 		font-size: 14px;
 		box-shadow: 0 0 5px gray;
+		border-radius: 100px;
 		:hover {
-			color: var(--c-pink1) !important;
-			box-shadow: 0 0 2px gray;
-			:active {
-				box-shadow: 0 0 0 gray;
-			}
+			color: white !important;
+			background-color: var(--c-primary);
 		}
 		&.active {
-			color: var(--c-pink3);
+			color: var(--c-primary);
 		}
+	}
+
+	.color-primary {
+		color: var(--c-primary);
+	}
+	.color-secondary {
+		color: var(--c-secondary);
+	}
+	.color-tertiary {
+		color: var(--c-tertiary);
 	}
 `;
