@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useNavigate, useLocation } from "react-router-dom";
 import { ROUTES } from "../../routes";
 import { QUESTIONS, RANKS } from "../../const";
+import shuffleSeed from "shuffle-seed";
 
 const EndingPage = () => {
   const navigate = useNavigate();
@@ -10,8 +11,12 @@ const EndingPage = () => {
 
   const params = new URLSearchParams(location.search);
   const score = params.get("score") || '0';
+  const seed = params.get("seed") || '0';
 
-  const maxScore = QUESTIONS.reduce((max, current) => max + Math.max(...current.options.map(option => option.score)), 0);
+  let shuffledQuestions = shuffleSeed.shuffle(QUESTIONS, seed);
+  shuffledQuestions = shuffledQuestions.slice(0, 10);
+
+  const maxScore = shuffledQuestions.reduce((max, current) => max + Math.max(...current.options.map(option => option.score)), 0);
   const scorePercentage = parseInt(score) / maxScore * 100;
   const redirectToHome = () => {
     navigate(ROUTES.home); // Replace with the actual URL of your home page

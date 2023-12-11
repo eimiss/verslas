@@ -7,7 +7,13 @@ import { buildRoute } from "../utils/buildRoute";
 const PageHome = () => {
   return (
     <PageHomeStyle id="Home">
-      <h1>Sveiki atvykę į verslo pulsą!</h1>
+      <div>
+        <h1>Sveiki atvykę į verslo pulsą!
+        <Link to={buildRoute(ROUTES.rules, {})}>
+          <button>Apie žaidimą</button>
+        </Link>
+        </h1>   
+      </div>
       <div className='home-menu'>
         <ul>
           <li><Link to={buildRoute(ROUTES.question, {

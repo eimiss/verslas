@@ -4,10 +4,11 @@ import React, { useState } from "react";
 export type Option = {
     title: string;
     score: number;
+    explain?: string;
 }
 
 export type QuestionProps = {
-    onClick: (score: number) => void;
+    onClick: (score: number, explain: string) => void;
     question: string;
     options: Option[];
 }
@@ -22,7 +23,7 @@ const Question = ({ question, options, onClick }: QuestionProps) => {
   const handleSubmit = () => {
     if(selectedIndex !== undefined) {
       setSelectedIndex(undefined);
-      onClick?.(options[selectedIndex].score);
+      onClick?.(options[selectedIndex].score, options[selectedIndex]?.explain || "");
     }
   };
 
@@ -34,6 +35,7 @@ const Question = ({ question, options, onClick }: QuestionProps) => {
           <div key={key}>
             <input type="radio" name="bitch" value={option.score} checked={selectedIndex === key} onChange={() => handleChange(key)} />
             <label>{option.title}</label>
+            <p></p>
           </div>
         );
       })}

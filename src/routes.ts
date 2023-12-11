@@ -4,5 +4,6 @@ export const ROUTES = {
   home: `${ROUTES_PREFIX}/`,
   ending: `${ROUTES_PREFIX}/ending_page`,
   question: `${ROUTES_PREFIX}/question/:seed/:page`,
-  questions: `${ROUTES_PREFIX}/questions`
+  questions: `${ROUTES_PREFIX}/questions`,
+  rules: `${ROUTES_PREFIX}/rules`
 };
