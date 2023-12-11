@@ -18,7 +18,8 @@ const PageQuestion = () => {
   const seed = params.seed || "0";
   const page = Number(params.page) || 0;
 
-  const shuffledQuestions = shuffleSeed.shuffle(QUESTIONS, seed);
+  let shuffledQuestions = shuffleSeed.shuffle(QUESTIONS, seed);
+  shuffledQuestions = shuffledQuestions.slice(0, 10);
 
   const handleSubmit = (score: number, explain: string) => {
     setSubmitted(true);
@@ -43,7 +44,7 @@ const PageQuestion = () => {
     if(!q) {
       navigate({
         pathname: ROUTES.ending,
-        search: `?score=${totalScore}`
+        search: `?score=${totalScore}&seed=${seed}`
       });
     }
   }, [q]);
