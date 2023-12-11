@@ -14,6 +14,7 @@ const PageQuestion = () => {
   const [ submitted, setSubmitted ] = React.useState(false);
   const [ currentScore, setCurrentScore ] = React.useState(0);
   const [ explain, setExplain ] = React.useState("");
+  const [ currentSelectedIndex, setCurrentSelectedIndex ] = React.useState<number>();
 
   const seed = params.seed || "0";
   const page = Number(params.page) || 0;
@@ -31,10 +32,15 @@ const PageQuestion = () => {
   const handleNext = () => {
     setSubmitted(false);
     setCurrentScore(0);
+    setCurrentSelectedIndex(undefined);
     navigate(buildRoute(ROUTES.question, {
       seed,
       page: page + 1 
     }));
+  };
+
+  const handleSelectOption = (index: number) => {
+    setCurrentSelectedIndex(index);
   };
 
   const q = shuffledQuestions[page];
@@ -51,15 +57,18 @@ const PageQuestion = () => {
 
   return (
     <PageQuestionStyle id="PageQuestion">
-      {q ? submitted ? <NextStyle $score={currentScore} $maxScore={qMax}>
-        <div> Surinkai:
-           <ScoreStyle $score={currentScore} $maxScore={qMax}><span> {currentScore}/{qMax} </span></ScoreStyle>
-        </div>
-        <div>
-          <span>{explain}</span>
-        </div>
-        <button onClick={handleNext}>Toliau</button>
-      </NextStyle> : <Question question={q.question} options={q.options} onClick={handleSubmit}/> : null}
+      {q ? <div>
+        <Question onSelect={handleSelectOption} selectedIndex={currentSelectedIndex} submitted={submitted} question={q.question} options={q.options} onClick={handleSubmit}/>
+        {submitted ? <NextStyle $score={currentScore} $maxScore={qMax}>
+          <h3> Surinkai:
+            <ScoreStyle $score={currentScore} $maxScore={qMax}><span> {currentScore}/{qMax} </span></ScoreStyle>
+          </h3>
+          <div>
+            <span>{explain}</span>
+          </div>
+          <button onClick={handleNext}>Toliau</button>
+        </NextStyle> : null}
+      </div> : null}
     </PageQuestionStyle>
   );
 };
@@ -69,11 +78,22 @@ export default PageQuestion;
 const PageQuestionStyle = styled.div`
 	flex-shrink: 0;
 	flex-grow: 1;
+	padding: 20px 40px;
 `;
 
 const NextStyle = styled.div<{ $score: number; $maxScore: number; }>`
+	margin-top: 20px;
+	> h3 {
+		margin-bottom: 0;
+	}
 	> button {
-		color: ${props => !props.$score ? "red" : props.$score >= props.$maxScore ? "green" : "orange"};
+		margin-top: 10px;
+		background-color: ${props => !props.$score ? "#ff0000" : props.$score >= props.$maxScore ? "#00ff00" : "#ffa500"};
+		:hover {
+			color: black !important;
+			filter: brightness(0.95);
+			background-color: ${props => !props.$score ? "#ff0000" : props.$score >= props.$maxScore ? "#00ff00" : "#ffa500"};
+		}
 	}
 `;
 

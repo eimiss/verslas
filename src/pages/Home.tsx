@@ -16,7 +16,7 @@ const PageHome = () => {
         <div className='title-container'>
           <div className='title-text'>
             <h1>Sveiki atvykę į <span className='color-secondary'>verslo pulsą</span>!</h1>
-            <span className='subtext'>AI Žinių Apklausa verslo srityje</span>
+            <span className='subtext'>AI žinių Apklausa verslo srityje</span>
           </div>
           <div className='start-button'>
             <Link to={buildRoute(ROUTES.question, {
@@ -28,13 +28,13 @@ const PageHome = () => {
       </div>
       <div className='container_2'>
         <h2>Apie Mus</h2>
-        <p>Sveiki atvykę į &quot;Verslo Pulsas&quot; - vietą, kurioje galite išbandyti savo žinias apie dirbtinį intelektą (AI) verslo aplinkoje.</p>
+        <p>Sveiki atvykę į &quot;Verslo Pulsas&quot; - vietą, kurioje galite išbandyti savo žinias apie dirbtinį intelektą (DI) verslo aplinkoje.</p>
 
-        <p>Mūsų tikslas yra skatinti supratimą apie AI technologijų naudojimą versle ir padėti jums įvertinti savo žinias šioje sparčiai besivystančioje srityje.</p>
+        <p>Mūsų tikslas yra skatinti supratimą apie DI technologijų naudojimą versle ir padėti jums įvertinti savo žinias šioje sparčiai besivystančioje srityje.</p>
 
         <h2>Kodėl verta žaisti?</h2>
         <ul>
-          <li>Patikrinsite savo žinias apie AI verslo srityje.</li>
+          <li>Patikrinsite savo žinias apie DI verslo srityje.</li>
           <li>Sužinosite, kaip dirbtinis intelektas gali optimizuoti jūsų verslo veiklą.</li>
         </ul>
       </div>
@@ -47,6 +47,9 @@ const PageHome = () => {
           <div className='footer-content-right'>
             <Link to={buildRoute(ROUTES.rules, {})}>
               <button>Apie žaidimą</button>
+            </Link>
+            <Link to={buildRoute(ROUTES.questions, {})}>
+              <button>Visi klausimai</button>
             </Link>
           </div>
         </section>
@@ -210,7 +213,16 @@ const PageHomeStyle = styled.div`
 			}
 			.footer-content-right {
 				display: flex;
-				justify-content: flex-end;
+				align-items: flex-end;
+				flex-direction: column;
+				> a {
+					> button {
+						min-width: 150px;
+					}
+					:not(:last-child) {
+						margin-bottom: 10px;
+					}
+				}
 			}
 		}
 	}

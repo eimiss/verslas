@@ -13,4 +13,14 @@
       >https:/eimiss.github.io/verslas.github.io/?/verslas.github.io/question/:seed/:page</loc
     >
   </url>
+  <url>
+    <loc
+      >https:/eimiss.github.io/verslas.github.io/?/verslas.github.io/questions</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https:/eimiss.github.io/verslas.github.io/?/verslas.github.io/rules</loc
+    >
+  </url>
 </urlset>

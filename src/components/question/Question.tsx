@@ -11,18 +11,17 @@ export type QuestionProps = {
     onClick: (score: number, explain: string) => void;
     question: string;
     options: Option[];
+		submitted: boolean;
+		onSelect: (index: number) => any;
+		selectedIndex?: number;
 }
 
-const Question = ({ question, options, onClick }: QuestionProps) => {
-  const [ selectedIndex, setSelectedIndex ] = useState<number>();
-
-  const handleChange = (index: number) => {
-    setSelectedIndex(index);
-  };
-
+const Question = ({
+  question, options, onClick, submitted, onSelect, selectedIndex
+}: QuestionProps) => {
   const handleSubmit = () => {
     if(selectedIndex !== undefined) {
-      setSelectedIndex(undefined);
+      //setSelectedIndex(undefined);
       onClick?.(options[selectedIndex].score, options[selectedIndex]?.explain || "");
     }
   };
@@ -33,14 +32,14 @@ const Question = ({ question, options, onClick }: QuestionProps) => {
       {options.map((option, key) => {
         return (
           <div key={key}>
-            <input type="radio" name="bitch" value={option.score} checked={selectedIndex === key} onChange={() => handleChange(key)} />
+            <input type="radio" name="bitch" value={option.score} checked={selectedIndex === key} disabled={submitted} onChange={() => onSelect(key)} />
             <label>{option.title}</label>
             <p></p>
           </div>
         );
       })}
       <div>
-        <StyledButton type="button" onClick={handleSubmit}>Pateikti</StyledButton>
+        <StyledButton disabled={submitted} type="button" onClick={handleSubmit}>Pateikti</StyledButton>
       </div>
     </fieldset>
   );

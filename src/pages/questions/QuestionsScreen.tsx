@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { QUESTIONS } from "../../const";
 
-import {QuestionOption} from "../../components/question/Option";
+import { QuestionOption } from "../../components/question/Option";
 
 const QuestionsScreen = () => {
   return (
@@ -31,8 +31,11 @@ const QuestionsScreen = () => {
 
 export default QuestionsScreen;
 
+const color = "#cbd5e1";
+const color2 = "#94a3b8";
+
 const Container = styled.div`
-  background-color: #6b7280; /* Replace with your slate-300 color */
+  background-color: ${color}; /* Replace with your slate-300 color */
 `;
 
 const QuestionContainer = styled.div`
@@ -46,14 +49,14 @@ const TypeContainer = styled.div`
   margin-left: 1px;
   margin-bottom: 1px;
   padding: 16px;
-  border: 2px solid #6b7280; /* Replace with your slate-400 color */
+  border: 2px solid ${color2}; /* Replace with your slate-400 color */
   border-radius: 8px 0 0 8px;
 `;
 
 const QuestionWrapper = styled.div`
   margin: 16px 0;
   padding: 16px;
-  border: 2px solid #6b7280; /* Replace with your slate-400 color */
+  border: 2px solid ${color2}; /* Replace with your slate-400 color */
   border-radius: 8px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 `;

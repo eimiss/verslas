@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import React, { useState } from "react";
+import styled from "styled-components";
 
 export type Option = {
   title: string;
@@ -27,8 +27,8 @@ const ScoreText = styled.span<{ score: number; maxScore: number }>`
     props.score === 0
       ? "#e53e3e" // Replace with your red-500 color
       : props.score === props.maxScore
-      ? "#38a169" // Replace with your green-500 color
-      : "#ed8936"}; // Replace with your orange-500 color
+        ? "#38a169" // Replace with your green-500 color
+        : "#ed8936"}; // Replace with your orange-500 color
 `;
 
 const ExplanationText = styled.div<{ isOpen: boolean }>`
@@ -41,7 +41,7 @@ const ExplanationText = styled.div<{ isOpen: boolean }>`
 `;
 
 const QuestionOption = ({ option, maxScore, index }: QuestionProps) => {
-  const [open, setOpen] = useState<boolean>(false);
+  const [ open, setOpen ] = useState<boolean>(false);
   const { title, score, explain } = option;
 
   return (
