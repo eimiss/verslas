@@ -12,12 +12,19 @@ import PageHome from "./Home";
 import EndingPage from "./ending_page";
 import PageQuestion from "./question/[seed]/[page]";
 import Page404 from "./404";
+import QuestionsScreen from "./questions/QuestionsScreen";
 
 const PAGES: RouteProps[] = [
   {
     path: ROUTES.home,
     element: <Layout>
       <PageHome />
+    </Layout>
+  },
+  {
+    path: ROUTES.questions,
+    element: <Layout>
+      <QuestionsScreen />
     </Layout>
   },
   {

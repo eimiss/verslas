@@ -53,8 +53,6 @@ const LayoutStyle = styled.div`
 	overflow-x: hidden;
 	flex-direction: column;
 	
-	padding: 20px 30px;
-
 	@function hexToRGB($hex) {
 		@return red($hex), green($hex), blue($hex);
 	}
