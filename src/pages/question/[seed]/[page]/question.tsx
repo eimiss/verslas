@@ -13,16 +13,18 @@ const PageQuestion = () => {
   const [ totalScore, setTotalScore ] = React.useState(0);
   const [ submitted, setSubmitted ] = React.useState(false);
   const [ currentScore, setCurrentScore ] = React.useState(0);
+  const [ explain, setExplain ] = React.useState("");
 
   const seed = params.seed || "0";
   const page = Number(params.page) || 0;
 
   const shuffledQuestions = shuffleSeed.shuffle(QUESTIONS, seed);
 
-  const handleSubmit = (score: number) => {
+  const handleSubmit = (score: number, explain: string) => {
     setSubmitted(true);
     setCurrentScore(score);
     setTotalScore((state) => state + score);
+    setExplain(explain);
   };
 
   const handleNext = () => {
@@ -49,8 +51,11 @@ const PageQuestion = () => {
   return (
     <PageQuestionStyle id="PageQuestion">
       {q ? submitted ? <NextStyle $score={currentScore} $maxScore={qMax}>
+        <div> Surinkai:
+           <ScoreStyle $score={currentScore} $maxScore={qMax}><span> {currentScore}/{qMax} </span></ScoreStyle>
+        </div>
         <div>
-          <span>Surinkai {currentScore}/{qMax}</span>
+          <span>{explain}</span>
         </div>
         <button onClick={handleNext}>Toliau</button>
       </NextStyle> : <Question question={q.question} options={q.options} onClick={handleSubmit}/> : null}
@@ -67,6 +72,12 @@ const PageQuestionStyle = styled.div`
 
 const NextStyle = styled.div<{ $score: number; $maxScore: number; }>`
 	> button {
+		color: ${props => !props.$score ? "red" : props.$score >= props.$maxScore ? "green" : "orange"};
+	}
+`;
+
+const ScoreStyle = styled.span<{ $score: number; $maxScore: number; }>`
+	> span {
 		color: ${props => !props.$score ? "red" : props.$score >= props.$maxScore ? "green" : "orange"};
 	}
 `;
